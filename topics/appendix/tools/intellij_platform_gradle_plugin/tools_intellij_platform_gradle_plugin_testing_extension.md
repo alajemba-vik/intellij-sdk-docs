@@ -6,7 +6,7 @@
 
 <include from="tools_intellij_platform_gradle_plugin.md" element-id="faq"/>
 
-The _IntelliJ Platform Gradle Plugin_ introduces a top-level `intellijPlatformExtension` extension.
+The _IntelliJ Platform Gradle Plugin_ introduces a top-level `intellijPlatformTesting` extension.
 It provides a possibility for registering custom tasks for running the IDE, unit tests, UI tests, or performance tests.
 
 For each of the custom tasks, a dedicated sandbox is created to isolate them form other tasks or the build flow as they may rely on a different IntelliJ Platform version, plugins, or other configuration.
